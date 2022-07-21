@@ -8,7 +8,7 @@ export default function Info() {
         <p className="dev_website" >brendanmontalvo.com</p>
         <div className="btn-group">
         <button className="email-btn"><img src="/images/email-logo.png" className="email-logo" />Email</button>
-        <button className="linkedin-btn"><img src="/images/linkedin-icon.png" className="linkedin-icon"/>LinkedIn</button>
+        <button className="linkedin-btn" onClick="window.location = 'https://www.linkedin.com/in/brendan-montalvo/';"><img src="/images/linkedin-icon.png" className="linkedin-icon"/>LinkedIn</button>
         </div>
         </div>
     )
